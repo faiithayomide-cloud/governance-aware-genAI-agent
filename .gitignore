@@ -1,0 +1,20 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Payloads (Generated)
+aspect_payloads/*.yaml
+
+# System/Temp
+.DS_Store
+*.log
+.gemini/
